@@ -33,7 +33,7 @@ Welcome to **ChatGPTFirewall**, your secure solution for file-based chatting. Th
 
 - **Application**: [https://chatgpt.enclaive.io/](https://chatgpt.enclaive.io/)
 - **Landing Page**: [https://chatgptfirewall.github.io/ChatGPTfirewall/](https://chatgptfirewall.github.io/ChatGPTfirewall/)
-- **Documentation**: [Link to documentation]
+- **Documentation**: [https://chatgptfirewall.gitbook.io/chatgptfirewall/](https://chatgptfirewall.gitbook.io/chatgptfirewall/)
 - **GitHub Repository**: [https://github.com/ChatGPTfirewall/ChatGPTfirewall](https://github.com/ChatGPTfirewall/ChatGPTfirewall)
 
 ## About ChatGPTFirewall
