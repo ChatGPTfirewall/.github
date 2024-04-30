@@ -1,11 +1,9 @@
 # ChatGPT Firewall - Your pal to cost-efficiently and securely chat with arbitrarily large documents
 
-Welcome to ChatGPTfirewall, a versatile prompt firewall designed specifically for ChatGPT and related LLM models. This tool enables you to engage in secure and cost-effective conversations while safeguarding sensitive data and files.
+Welcome to ChatGPT Firewall, a versatile prompt firewall designed specifically for ChatGPT and related LLM models. This tool enables you to engage in secure and cost-effective conversations while safeguarding sensitive data and files:
 
-ChatGPTfw offers the following key features:
-
-- Facilitates prompting ChatGPT with extensive documents or a large number of documents, overcoming the limitations of GPT-3's context capacity. For instance, it enables tokenization of materials such as books, electronic patient records, or contracts.
-- Provides the option to opt in or out of pseudonymizing prompts, ensuring privacy by sanitizing personal information such as names, email addresses, and street names. If uncomfortable with potentially sensitive content within prompts, automated suggestions can be manually post-edited for added security and peace of mind.
+- prompt ChatGPT with extensive documents or a large number of documents, overcoming the limitations of GPT-3's context capacity. For instance, it enables tokenization of materials such as books, electronic patient records, or contracts.
+- opt in or out pseudonymizing prompts, ensuring privacy by sanitizing personal information such as names, email addresses, and street names. If uncomfortable with potentially sensitive content within prompts, automated suggestions can be manually post-edited for added security and peace of mind.
  
 ## Getting started
 
