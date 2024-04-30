@@ -1,7 +1,5 @@
 # ChatGPTfirewall - Your pal to cost-efficiently and securely chat with arbitrarily large documents
 
-![ChatGPTFirewall Logo](/images/android-chrome-256x256.png)
-
 Welcome to ChatGPTfirewall, a versatile prompt firewall designed specifically for ChatGPT and related LLM models. This tool enables you to engage in secure and cost-effective conversations while safeguarding sensitive data and files.
 
 ChatGPTfw offers the following key features:
