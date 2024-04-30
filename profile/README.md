@@ -14,6 +14,20 @@ ChatGPTfw offers the following key features:
 - **Project Page**: [https://chatgptfirewall.github.io/ChatGPTfirewall/](https://chatgptfirewall.github.io/ChatGPTfirewall/)
 - **Documentation**: [https://chatgptfirewall.gitbook.io/chatgptfirewall/](https://chatgptfirewall.gitbook.io/chatgptfirewall/)
 
+
+## Features
+
+- **Conversational Data Interaction**: Users can chat with their data by uploading files and asking questions in natural language.
+- **File Upload Support**: Manual file uploads.
+- **Vector Database Integration**: Utilizes Qdrant for efficient similarity searches on text data.
+- **Editable Responses**: Adjust the number of sentences returned from searches.
+- **Customizable Prompts**: Customize the prompts sent to ChatGPT for tailored answers.
+- **Authentication**: Secure user login with Auth0.
+- **File Management**: Easily manage your uploaded files.
+- **Demo Mode**: Explore the application's capabilities with preloaded files in demo mode.
+- **Multilingual**: The application supports both German and English languages.
+- **Rooms**: Create different rooms for different contexts.
+
 ## Releases 
 
 v0.1:
