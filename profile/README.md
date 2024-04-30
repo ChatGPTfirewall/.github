@@ -1,21 +1,52 @@
-# ChatGPTFirewall
+# ChatGPTfirewall - Your pal to cost-efficiently and securely chat with arbitrarily large documents
 
-![ChatGPTFirewall Logo](/images/android-chrome-512x512.png)
+![ChatGPTFirewall Logo](/images/android-chrome-256x256.png)
 
-Welcome to **ChatGPTFirewall**, your secure solution for file-based chatting. This application acts as a protective layer between you and ChatGPT, ensuring your communications remain confidential within a cloud environment. Safely upload files and engage with ChatGPT about their content without risking sensitive information.
+Welcome to ChatGPTfirewall, a versatile prompt firewall designed specifically for ChatGPT and related LLM models. This tool enables you to engage in secure and cost-effective conversations while safeguarding sensitive data and files.
 
-## Links
+ChatGPTfw offers the following key features:
 
-- **Application**: [https://chatgpt.enclaive.io/](https://chatgpt.enclaive.io/)
-- **Landing Page**: [https://chatgptfirewall.github.io/ChatGPTfirewall/](https://chatgptfirewall.github.io/ChatGPTfirewall/)
+- Facilitates prompting ChatGPT with extensive documents or a large number of documents, overcoming the limitations of GPT-3's context capacity. For instance, it enables tokenization of materials such as books, electronic patient records, or contracts.
+- Provides the option to opt in or out of pseudonymizing prompts, ensuring privacy by sanitizing personal information such as names, email addresses, and street names. If uncomfortable with potentially sensitive content within prompts, automated suggestions can be manually post-edited for added security and peace of mind.
+ 
+## Getting started
+
+- **Try it**: [https://chatgpt.enclaive.io/](https://chatgpt.enclaive.io/)
+- **Build it**: [https://github.com/ChatGPTfirewall/ChatGPTfirewall](https://github.com/ChatGPTfirewall/ChatGPTfirewall)
+- **Project Page**: [https://chatgptfirewall.github.io/ChatGPTfirewall/](https://chatgptfirewall.github.io/ChatGPTfirewall/)
 - **Documentation**: [https://chatgptfirewall.gitbook.io/chatgptfirewall/](https://chatgptfirewall.gitbook.io/chatgptfirewall/)
-- **GitHub Repository**: [https://github.com/ChatGPTfirewall/ChatGPTfirewall](https://github.com/ChatGPTfirewall/ChatGPTfirewall)
 
-## About ChatGPTFirewall
+## Releases 
 
-ChatGPTFirewall is a web application designed for secure, file-based chatting. It offers:
+v0.1:
 
-- **Secure Communication**: Keeps user interactions with ChatGPT safe.
-- **Confidential Cloud Environment**: Protects user data in the cloud.
-- **File-Based Chatting**: Enables asking questions about uploaded file contents.
-- **Pseudonymized Data**: Masks sensitive information to ensure privacy.
+- **Reduced prompt length**: Rather than tokenizing the entire document, chatGPTfw employs a [retrieval augmented generation (RAG)](https://qdrant.tech/articles/what-is-rag-in-ai/)  system, utilizing the [qdrant][https://qdrant.tech/] vector database. This process condenses the prompt down to the three most probable responses.
+  
+v0.2:
+- **File-Based Chatting**: Enables asking questions about uploaded file contents. Currently supported formats: PDF, TXT
+
+v0.3:
+- **Confidential Cloud Environment**: Deployment scripts to run in a confidential compute environemt. Learn  [more](https://enclaive.io/)
+- **Pseudonymize Data**: Masks sensitive information in prompt to ensure privacy (e.g. name, location, email address) before sending to chatGPT
+
+v0.4:
+- **DE/EN language support**: Chat with docs in DE and EN
+
+v0.5:
+- **Demo mode/use cases**: Chat with files containing an excerpt of sections from book or a series of court rulings
+
+## Contribute
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Acknowledgments
+
+This project greatly celebrates all contributions from the open source community. Big shout out to
+
+- [qdrant][https://qdrant.tech/] vector database
