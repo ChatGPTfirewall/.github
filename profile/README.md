@@ -61,4 +61,4 @@ Contributions are what make the open source community such an amazing place to l
 
 This project greatly celebrates all contributions from the open source community. Big shout out to
 
-- [qdrant][https://qdrant.tech/] vector database
+- [qdrant](https://qdrant.tech/) vector database
