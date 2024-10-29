@@ -45,6 +45,10 @@ v0.4:
 v0.5:
 - **Demo mode/use cases**: Chat with files containing an excerpt of sections from book or a series of court rulings
 
+v0.6:
+- **Bug Fixes**: Improved the derandamization of text categories for the sake of improved context screening
+- **Pseudomization selector**: increased the number of objects that are pseudomizable
+
 ## Contribute
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
