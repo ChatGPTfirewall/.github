@@ -7,7 +7,7 @@ Welcome to ChatGPT Firewall, a versatile prompt firewall designed specifically f
  
 ## Getting started
 
-- **Try it**: [https://chatgpt.enclaive.io/](https://chatgpt.enclaive.io/)
+- **Try it**: [https://garnet.enclaive.cloud/](https://garnet.enclaive.cloud/)
 - **Build it**: [https://github.com/ChatGPTfirewall/ChatGPTfirewall](https://github.com/ChatGPTfirewall/ChatGPTfirewall)
 - **Project Page**: [https://chatgptfirewall.github.io/ChatGPTfirewall/](https://chatgptfirewall.github.io/ChatGPTfirewall/)
 - **Documentation**: [https://chatgptfirewall.gitbook.io/chatgptfirewall/](https://chatgptfirewall.gitbook.io/chatgptfirewall/)
@@ -30,7 +30,7 @@ Welcome to ChatGPT Firewall, a versatile prompt firewall designed specifically f
 
 v0.1:
 
-- **Reduced prompt length**: Rather than tokenizing the entire document, chatGPTfw employs a [retrieval augmented generation (RAG)](https://qdrant.tech/articles/what-is-rag-in-ai/)  system, utilizing the [qdrant][https://qdrant.tech/] vector database. This process condenses the prompt down to the three most probable responses.
+- **Reduced prompt length**: Rather than tokenizing the entire document, chatGPTfw employs a [retrieval augmented generation (RAG)](https://qdrant.tech/articles/what-is-rag-in-ai/)  system, utilizing the [qdrant](https://qdrant.tech/) vector database. This process condenses the prompt down to the three most probable responses.
   
 v0.2:
 - **File-Based Chatting**: Enables asking questions about uploaded file contents. Currently supported formats: PDF, TXT
