@@ -49,6 +49,24 @@ v0.6:
 - **Bug Fixes**: Improved the derandamization of text categories for the sake of improved context screening
 - **Pseudomization selector**: increased the number of objects that are pseudomizable
 
+v0.7:
+- **Expanded Entity Recognition**: Detects more entity types.  
+- **Contextual Marking**: Marks surrounding context for matched sentences.  
+- **Granular Anonymization Control**: Enable/disable anonymization for specific entity types.  
+- **File Detail Drawer**: View content from uploaded files.  
+- **File Page**: New section to inspect files, create summaries, and manage chapters.  
+- **Automatic Chapter Detection**: Files can be divided into detected chapters.  
+- **Chapter Summarization**: Backend model can generate chapter summaries.  
+- **Custom GPT Model Selection**: Choose between different GPT models.  
+- **More Models**: Support for GPT-4o & 4o-mini added.
+- **Files Page**: New Files Page for inspecting Documents.
+- **File-Based Context Linking**: Link files in chat for for deeper inspection using the file page.  
+- **Smart Sidebar**: Sidebar auto-hides or shows depending on the situation.  
+- **Enhanced Context Handling**: Adds existing chapters or chapter summaries to search results.  
+- **Direct Model Messaging**: Send messages to the model without searching a file.  
+- **Integrated Web Search**: Provides model with real-time search results from the internet.  
+
+
 ## Contribute
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
